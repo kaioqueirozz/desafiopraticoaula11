@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 11</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <header id="header">
+      <h1 id="titulo_pagina">BLOG</h1>
+      <form action="#" id="formulario">
+        <label for="titulo">TÍTULO DA POSTAGEM:</label>
+        <input type="text" name="titulo" id="form_titulo" />
+        <br /><br />
+        <label for="data">DATA:</label>
+        <input type="date" name="titulo" id="form_data" />
+        <br /><br />
+        <label for="texto">CONTEÚDO:</label>
+        <br />
+        <textarea name="texto" id="form_texto" cols="100" rows="10"></textarea>
+<br><br>
+        <button id="adicionar_postagem">POSTAR</button>
+    </header>
+    
+    <div class="postbox">
+      <article class="post_reduzido">
+        <h1 class="titulo_post">TITULO DO POST</h1>
+        <p class="texto_post_reduzido">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
+          officiis dignissimos...
+        </p>
+        <button>Ler mais</button>
+      </article>
+
+
+      <article class="post_completo">
+        <h1 class="titulo_post">TITULO DO POST</h1>
+        <p class="texto_post_completo">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
+          officiis dignissimos doloribus reprehenderit voluptas expedita est
+          deserunt libero magnam iure alias incidunt soluta esse odio, unde, a
+          aliquid fugiat dolores? Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Veniam illo saepe error harum quas commodi, aliquam
+          assumenda at officiis neque corporis perferendis cum, distinctio
+          magnam dolore odio fugit. Omnis, quaerat! Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Incidunt vero qui, consequuntur aperiam,
+          repudiandae esse nam iste dolorem obcaecati eveniet, vel doloremque
+          cupiditate est blanditiis sint dolor. Vel, itaque soluta!
+        </p>
+        <p class="data">Data da publicação:</p>
+        <p class="data">15/02/2024</p>
+        <form action="#">
+          <label for="nome">NOME:</label>
+          <br>
+          <input type="text" name="nome" id="nome">
+          <textarea name="comentario" id="comentario" cols="130" rows="2"></textarea>
+          <br>
+          <button class="comentar">Comentar</button>
+          <br>
+          <div class="comentario">
+            <h1 class="nome_comentario">Fulano</h1>
+            <p class="texto_comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium necessitatibus praesentium iure tempora quis voluptates, placeat perspiciatis maiores nostrum officia adipisci, molestias magni excepturi accusamus autem hic distinctio rerum a.</p>
+          </div>
+          <div class="comentario">
+            <h1 class="nome_comentario">Fulano</h1>
+            <p class="texto_comentario">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium necessitatibus praesentium iure tempora quis voluptates, placeat perspiciatis maiores nostrum officia adipisci, molestias magni excepturi accusamus autem hic distinctio rerum a.</p>
+          </div>
+          <button class="ler_menos">Ler menos</button>
+        </form>
+      </article>
+
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
